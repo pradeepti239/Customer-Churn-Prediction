@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/460129624168228769/dd71959a6de84ad7a80738e941754fb8/artifacts
+deleted_time: 1689227359307
+end_time: null
+entry_point_name: ''
+experiment_id: '460129624168228769'
+lifecycle_stage: deleted
+run_id: dd71959a6de84ad7a80738e941754fb8
+run_name: Regression in balanced data
+run_uuid: dd71959a6de84ad7a80738e941754fb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689227230451
+status: 1
+tags: []
+user_id: User

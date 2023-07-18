@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/bc3409ac0cc54e0697abfcbf97b52edb/artifacts
+deleted_time: 1689228319392
+end_time: 1689225063909
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: bc3409ac0cc54e0697abfcbf97b52edb
+run_name: Regression in Unbalanced data
+run_uuid: bc3409ac0cc54e0697abfcbf97b52edb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689225054285
+status: 3
+tags: []
+user_id: User

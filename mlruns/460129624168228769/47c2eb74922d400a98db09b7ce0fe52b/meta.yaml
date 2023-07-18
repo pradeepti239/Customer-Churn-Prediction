@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/460129624168228769/47c2eb74922d400a98db09b7ce0fe52b/artifacts
+end_time: 1689241359577
+entry_point_name: ''
+experiment_id: '460129624168228769'
+lifecycle_stage: active
+run_id: 47c2eb74922d400a98db09b7ce0fe52b
+run_name: Regression in Balanced data_2023-07-13 15:27:20.111327
+run_uuid: 47c2eb74922d400a98db09b7ce0fe52b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689241352390
+status: 3
+tags: []
+user_id: User
