@@ -6,5 +6,3 @@ mlruns/
 
 # Ignore __pycache__ folder
 __pycache__/
-
-app.py
