@@ -1,0 +1,10 @@
+# Ignore mlartifacts folder
+mlartifacts/
+
+# Ignore mlruns folder
+mlruns/
+
+# Ignore __pycache__ folder
+__pycache__/
+
+app.py

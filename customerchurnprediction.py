@@ -2,7 +2,6 @@ import mlflow
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-# import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
@@ -28,7 +27,6 @@ timestamp = datetime.now().strftime("%Y-%m-%d %H%M%S")
 
 with mlflow.start_run(run_name=f"Regression in Unbalanced data_{timestamp}"):
 
-    # mlflow.autolog() 
     mlflow.autolog(disable=True)
 
     mlflow.log_param("model", "LogisticRegression")
@@ -37,7 +35,6 @@ with mlflow.start_run(run_name=f"Regression in Unbalanced data_{timestamp}"):
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
 
-    # joblib.dump(model, './model/prediction1.joblib')
     mlflow.log_artifact('./model/prediction1.joblib')
 
     report = classification_report(y_test, y_pred, output_dict=True)
@@ -53,7 +50,6 @@ with mlflow.start_run(run_name=f"Regression in Unbalanced data_{timestamp}"):
 
 with mlflow.start_run(run_name=f"Regression in Balanced data_{timestamp}"):
 
-    # mlflow.autolog() 
     mlflow.autolog(disable=True)
 
     mlflow.log_param("oversampler", "RandomOverSampler")
@@ -66,7 +62,6 @@ with mlflow.start_run(run_name=f"Regression in Balanced data_{timestamp}"):
     model1.fit(X_train_resampled, y_train_resampled)
     y_pred = model1.predict(X_test)
 
-    # joblib.dump(model1, './model/prediction2.joblib')
     mlflow.log_artifact('./model/prediction2.joblib')
 
     report = classification_report(y_test, y_pred, output_dict=True)
@@ -79,13 +74,3 @@ with mlflow.start_run(run_name=f"Regression in Balanced data_{timestamp}"):
     mlflow.log_metric("accuracy", accuracy)
 
     mlflow.end_run()
-
-
-
-
-
-
-
-
-
-
