@@ -1,4 +1,4 @@
-# CustomerChurnPrediction
+# Customer Churn Prediction
 Customer Churn Prediction with experiment tracking in MLFlow and Docker implementation
 
 # Overview
