@@ -5,11 +5,13 @@ Customer Churn Prediction with experiment tracking in MLFlow and Docker implemen
 The main objective of this project is customer churn prediction. Its primary aim is to construct a machine-learning model capable of predicting whether a customer is prone to churning or not.
 
 # Tags
-Python <br>
-scikit-learn (sklearn)<br>
-MLflow<br>
-Docker<br>
-FastAPI
+<ul>
+<li>Python</li>
+<li>scikit-learn (sklearn)</li>
+<li>MLflow</li>
+<li>Docker</li>
+<li>FastAPI</li>
+</ul>
 
 # Steps to Run the Code
 
